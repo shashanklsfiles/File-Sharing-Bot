@@ -88,13 +88,13 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                   [
-InlineKeyboardButton("NEW movies", url="https://t.me/+HtnHH7F97_dkNGU1")
+                   
+InlineKeyboardButton("NEW movies", url=f'https://t.me/+HtnHH7F97_dkNGU1")
        ],[  
- InlineKeyboardButton("request MOVIES ☺️", url="https://t.me/+l9YAk8zRgldhYWNl")
+ InlineKeyboardButton("request MOVIES ☺️", url=f'https://t.me/+l9YAk8zRgldhYWNl")
        ],[
 InlineKeyboardButton("🔒 Close", callback_data = "close")
-                   ]
+                   
                 ]
             ]
         )
