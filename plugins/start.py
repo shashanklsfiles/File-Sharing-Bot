@@ -87,8 +87,8 @@ async def start_command(client: Client, message: Message):
     else:
                                                                      reply_markup=InlineKeyboardMarkup( 
                                                                           [[ 
-                                                                            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK), 
-                                                                            InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK) 
+                                                                            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/+l9YAk8zRgldhYWNl'), 
+                                                                            InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=f'https://t.me/+HtnHH7F97_dkNGU1') 
                                                                          ],[ 
                                                                             InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/Srikanth18") 
                                                                           ]] 
