@@ -85,14 +85,14 @@ async def start_command(client: Client, message: Message):
                 pass
         return
     else:
-                                                                     reply_markup=InlineKeyboardMarkup( 
-                                                                          [[ 
-                                                                            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/+l9YAk8zRgldhYWNl'), 
-                                                                            InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=f'https://t.me/+HtnHH7F97_dkNGU1') 
-                                                                         ],[ 
-                                                                            InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/Srikanth18") 
-                                                                          ]] 
-                                                  ),
+                                                                             reply_markup = InlineKeyboardMarkup( 
+             [ 
+                 [ 
+                     InlineKeyboardButton("New Movies🥰", url=f'https://t.me/+HtnHH7F97_dkNGU1'), 
+                     InlineKeyboardButton("Request Movies☺️ ", url=f'https://t.me/+l9YAk8zRgldhYWNl') 
+                 ] 
+             ] 
+         )
          
         await message.reply_text(
             text = START_MSG.format(
