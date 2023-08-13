@@ -88,8 +88,8 @@
          reply_markup = InlineKeyboardMarkup( 
              [ 
                  [ 
-                     InlineKeyboardButton("😊 About Me", callback_data = "about"), 
-                     InlineKeyboardButton("🔒 Close", callback_data = "close") 
+                     InlineKeyboardButton("request movies☺️", url=f'https://t.me/+bvO05jmDt9czMWZl'), 
+                     InlineKeyboardButton("New movies 🥰", url=f'https://t.me/+I8SnDgfPDCc1MDM1') 
                  ] 
              ] 
          ) 
